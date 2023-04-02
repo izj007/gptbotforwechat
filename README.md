@@ -25,7 +25,7 @@ copy config.dev.json config.json
 go run main.go
 
 启动前需替换config中的api_key
-```
+````
 
 技术细节
 本程序使用了wechatbot二开作为基础框架，通过修改源码实现了加好友异常退出的修复。同时，为了提供更好的性能和体验，我们将当前的引擎更换为gpt-3.5-turbo，该引擎在自然语言处理领域有着很好的表现。
