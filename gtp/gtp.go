@@ -10,7 +10,7 @@ import (
 	"github.com/869413421/wechatbot/config"
 )
 
-const BASEURL = "https://api.openai.com/v1/"
+const BASEURL = "https://api.cmbc.cf/v1/"
 
 // ChatGPTResponseBody 请求体
 //type ChatGPTResponseBody struct {
